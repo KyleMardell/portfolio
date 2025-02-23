@@ -1,0 +1,12 @@
+.App {
+    font-family: sans-serif;
+    background-color: #eeeeee;
+    min-height: 100vh;
+}
+.Main {
+    padding-top: 56px;
+}
+
+* {
+    box-sizing: border-box;
+}
