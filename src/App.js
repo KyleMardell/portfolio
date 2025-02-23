@@ -6,7 +6,7 @@ import Landing from './pages/Landing';
 function App() {
   
   return (
-    <div className={styles.App}>
+    <div className={`${styles.App} mx-1`}>
       <NavBar />
       <Container className={styles.Main}>
         <Landing />

@@ -1,13 +1,12 @@
 import React from "react";
 import profileHeadshot from "../assets/headshot.png";
+import { Image } from "react-bootstrap";
 
-const ProfileImage = (height = 100) => {
+const ProfileImage = () => {
     return (
         <span>
-            <img
+            <Image fluid
                 src={profileHeadshot}
-                height={height}
-                width={height}
                 alt="Profile headshot"
             />
         </span>
