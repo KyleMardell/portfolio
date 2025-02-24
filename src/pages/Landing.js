@@ -25,14 +25,14 @@ const Landing = () => {
                 <Row className="my-5">
                     <Col xs={8}>
                         <p>
-                            Hi, I’m Kyle, a web developer with a passion for
+                            Hi, I'm Kyle, a web developer with a passion for
                             building clean, functional, and engaging websites. I
                             originally studied games development at university,
                             which sparked my interest in coding and eventually
                             led me to web development. I work with React,
                             Django, and Bootstrap, creating dynamic front-end
                             experiences and solid back-end systems. After years
-                            in the motor trade, I’m making the leap into web
+                            in the motor trade, I'm making the leap into web
                             development, bringing strong problem-solving skills,
                             attention to detail, and a love for coding.
                         </p>
