@@ -1,16 +1,13 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
+import styles from "../styles/ProjectCard.module.css";
 
-const ProjectCard = ({src, repo}) => {
+const ProjectCard = ({ src, repo }) => {
     return (
-        <Card>
-            <Card.Img variant="top" src={src} />
-            <Card.Body>
-                <Card.Link href={repo} target="_blank">
-                    {repo}
-                </Card.Link>
-            </Card.Body>
-        </Card>
+        <a href={repo} target="_blank" rel="noopener noreferrer" className={styles.ProjectCard}>
+            <div className={styles.ProjectImageContainer}>
+                <img src={src} alt="Project preview" className={styles.ProjectImage} />
+            </div>
+        </a>
     );
 };
 

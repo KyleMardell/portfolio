@@ -41,8 +41,7 @@ const Landing = () => {
                         <p>I build things for the web.</p>
                     </Col>
                 </Row>
-                <Row className="my-5">
-                    <h3>Some of my recent projects</h3>
+                <Row className="my-5 g-4">
                     <Col xs={6}>
                         <ProjectCard
                         src={freeflow}
