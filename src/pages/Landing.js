@@ -1,6 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import ProfileImage from "../components/ProfileImage";
+import ProjectCard from "../components/ProjectCard";
+import freeflow from "../assets/freeflow.png";
+import beeteach from "../assets/beeteach.gif";
+import vinventory from "../assets/vinventory.png";
+import quizcrunch from "../assets/quizcrunch.png";
 
 const Landing = () => {
     return (
@@ -39,16 +44,28 @@ const Landing = () => {
                 <Row className="my-5">
                     <h3>Some of my recent projects</h3>
                     <Col xs={6}>
-                        Project
+                        <ProjectCard
+                        src={freeflow}
+                        repo="https://github.com/KyleMardell/freeflow-app"
+                        />
                     </Col>
                     <Col xs={6}>
-                        Project
+                    <ProjectCard
+                        src={beeteach}
+                        repo="https://github.com/KyleMardell/bee-teach"
+                        />
                     </Col>
                     <Col xs={6}>
-                        Project
+                    <ProjectCard
+                        src={vinventory}
+                        repo="https://github.com/KyleMardell/vinventory"
+                        />
                     </Col>
                     <Col xs={6}>
-                        Project
+                    <ProjectCard
+                        src={quizcrunch}
+                        repo="https://github.com/KyleMardell/quiz-crunch"
+                        />
                     </Col>
                 </Row>
                 <Row className="my-5">

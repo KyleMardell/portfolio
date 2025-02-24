@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import useClickOutsideToggle from "../hooks/useClickOutsideToggle";
+import styles from "../styles/NavBar.module.css";
 
 const NavBar = () => {
 
@@ -11,9 +12,10 @@ const NavBar = () => {
             expanded={expanded}
             expand="lg"
             fixed="top"
+            className={styles.NavBar}
         >
             <Container>
-                <Navbar.Brand>KM</Navbar.Brand>
+                <Navbar.Brand className={styles.NavBrand}>KM</Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="basic-navbar-nav"
                     ref={ref}

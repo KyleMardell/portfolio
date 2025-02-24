@@ -1,0 +1,9 @@
+.NavBar a, 
+.NavBar .nav-link,
+.NavBrand {
+    color: #ffffff !important;
+}
+.NavBar a:hover, 
+.NavBar .nav-link:hover{
+    color: #cccccc !important; /* Optional: Slightly different hover color */
+}
