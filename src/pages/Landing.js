@@ -3,8 +3,10 @@ import { Col, Row } from "react-bootstrap";
 
 import styles from "../styles/Landing.module.css";
 
-import ProfileImage from "../components/ProfileImage";
 import ProjectCard from "../components/ProjectCard";
+import TechCard from "../components/TechCard";
+
+import ProfileImage from "../components/ProfileImage";
 import freeflow from "../assets/freeflow.png";
 import beeteach from "../assets/beeteach.gif";
 import vinventory from "../assets/vinventory.png";
@@ -26,8 +28,10 @@ const Landing = () => {
                     </Col>
                 </Row>
                 <Row className="my-5 d-flex justify-content-center">
-                    <Col style={{ maxWidth: 'fit-content' }}>
-                        <p className={`${styles.AnimText}`}>I build things for the web.</p>
+                    <Col style={{ maxWidth: "fit-content" }}>
+                        <p className={`${styles.AnimText}`}>
+                            I build things for the web.
+                        </p>
                     </Col>
                 </Row>
 
@@ -73,17 +77,34 @@ const Landing = () => {
                         />
                     </Col>
                 </Row>
-                <Row className="my-5">
-                    <h3>Tech Stack</h3>
-                    <Col xs={6}>Git & Github</Col>
-                    <Col xs={6}>VS Code</Col>
-                    <Col xs={6}>Django</Col>
-                    <Col xs={6}>React</Col>
-                    <Col xs={6}>Bootstrap</Col>
-                    <Col xs={6}>Python</Col>
-                    <Col xs={6}>JavaScript</Col>
-                    <Col xs={6}>HTML</Col>
-                    <Col xs={6}>CSS</Col>
+                <Row className="my-5 g-4">
+                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                        <TechCard tech="Git & Github" />
+                    </Col>
+                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                        <TechCard tech="VS Code" />
+                    </Col>
+                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                        <TechCard tech="Django" />
+                    </Col>
+                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                        <TechCard tech="React" />
+                    </Col>
+                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                        <TechCard tech="Bootstrap" />
+                    </Col>
+                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                        <TechCard tech="Python" />
+                    </Col>
+                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                        <TechCard tech="JavaScript" />
+                    </Col>
+                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                        <TechCard tech="HTML" />
+                    </Col>
+                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                        <TechCard tech="CSS" />
+                    </Col>
                 </Row>
             </Col>
         </Row>
