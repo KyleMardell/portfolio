@@ -1,5 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+
+import styles from "../styles/Landing.module.css";
+
 import ProfileImage from "../components/ProfileImage";
 import ProjectCard from "../components/ProjectCard";
 import freeflow from "../assets/freeflow.png";
@@ -22,8 +25,14 @@ const Landing = () => {
                         <h2>Full Stack Developer</h2>
                     </Col>
                 </Row>
+                <Row className="my-5 d-flex justify-content-center">
+                    <Col style={{ maxWidth: 'fit-content' }}>
+                        <p className={`${styles.AnimText}`}>I build things for the web.</p>
+                    </Col>
+                </Row>
+
                 <Row className="my-5">
-                    <Col xs={8}>
+                    <Col>
                         <p>
                             Hi, I'm Kyle, a web developer with a passion for
                             building clean, functional, and engaging websites. I
@@ -37,65 +46,44 @@ const Landing = () => {
                             attention to detail, and a love for coding.
                         </p>
                     </Col>
-                    <Col xs={4}>
-                        <p>I build things for the web.</p>
-                    </Col>
                 </Row>
                 <Row className="my-5 g-4">
                     <Col xs={6}>
                         <ProjectCard
-                        src={freeflow}
-                        repo="https://github.com/KyleMardell/freeflow-app"
+                            src={freeflow}
+                            repo="https://github.com/KyleMardell/freeflow-app"
                         />
                     </Col>
                     <Col xs={6}>
-                    <ProjectCard
-                        src={beeteach}
-                        repo="https://github.com/KyleMardell/bee-teach"
+                        <ProjectCard
+                            src={beeteach}
+                            repo="https://github.com/KyleMardell/bee-teach"
                         />
                     </Col>
                     <Col xs={6}>
-                    <ProjectCard
-                        src={vinventory}
-                        repo="https://github.com/KyleMardell/vinventory"
+                        <ProjectCard
+                            src={vinventory}
+                            repo="https://github.com/KyleMardell/vinventory"
                         />
                     </Col>
                     <Col xs={6}>
-                    <ProjectCard
-                        src={quizcrunch}
-                        repo="https://github.com/KyleMardell/quiz-crunch"
+                        <ProjectCard
+                            src={quizcrunch}
+                            repo="https://github.com/KyleMardell/quiz-crunch"
                         />
                     </Col>
                 </Row>
                 <Row className="my-5">
                     <h3>Tech Stack</h3>
-                    <Col xs={6}>
-                        Git & Github
-                    </Col>
-                    <Col xs={6}>
-                        VS Code
-                    </Col>
-                    <Col xs={6}>
-                        Django
-                    </Col>
-                    <Col xs={6}>
-                        React
-                    </Col>
-                    <Col xs={6}>
-                        Bootstrap
-                    </Col>
-                    <Col xs={6}>
-                        Python
-                    </Col>
-                    <Col xs={6}>
-                        JavaScript
-                    </Col>
-                    <Col xs={6}>
-                        HTML
-                    </Col>
-                    <Col xs={6}>
-                        CSS
-                    </Col>
+                    <Col xs={6}>Git & Github</Col>
+                    <Col xs={6}>VS Code</Col>
+                    <Col xs={6}>Django</Col>
+                    <Col xs={6}>React</Col>
+                    <Col xs={6}>Bootstrap</Col>
+                    <Col xs={6}>Python</Col>
+                    <Col xs={6}>JavaScript</Col>
+                    <Col xs={6}>HTML</Col>
+                    <Col xs={6}>CSS</Col>
                 </Row>
             </Col>
         </Row>
