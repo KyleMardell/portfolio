@@ -1,9 +1,15 @@
+.NavBar {
+    background-color: #222831;
+    box-shadow: #4d4d4d 1px 1px 5px 1px;
+}
+
 .NavBar a, 
 .NavBar .nav-link,
 .NavBrand {
     color: #ffffff !important;
 }
+
 .NavBar a:hover, 
 .NavBar .nav-link:hover{
-    color: #cccccc !important; /* Optional: Slightly different hover color */
+    color: #cccccc !important;
 }

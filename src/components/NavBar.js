@@ -9,6 +9,7 @@ const NavBar = () => {
 
     return (
         <Navbar
+            data-bs-theme="dark"
             expanded={expanded}
             expand="lg"
             fixed="top"
