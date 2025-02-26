@@ -2,8 +2,8 @@
     width: 200px;
     height: 150px;
     border-radius: 10px;
-    border: 2px solid #ffffff;
-    color: #ffffff;
+    border: 2px solid #fafafa;
+    color: #fafafa;
     transition: transform 0.2s ease-in-out;
 }
 

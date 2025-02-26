@@ -25,29 +25,42 @@ const Landing = () => {
                         className="text-center d-flex flex-column align-items-center justify-content-center">
                         <h1>Kyle Mardell</h1>
                         <h2>Full Stack Developer</h2>
+                        <div>
+                            <a
+                                href="https://www.linkedin.com/in/kyle-mardell-7b4648288/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={`${styles.SocialLink} px-3`}
+                                >
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>{" "}
+                            <a
+                                href="https://github.com/KyleMardell"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={`${styles.SocialLink} px-3`}
+                                >
+                                <i class="fa-brands fa-square-github"></i>
+                            </a>
+                        </div>
                     </Col>
                 </Row>
                 <Row className="my-5 d-flex justify-content-center">
                     <Col style={{ maxWidth: "fit-content" }}>
                         <p className={`${styles.AnimText}`}>
-                            I build things for the web.
+                            I build things for the web
                         </p>
                     </Col>
                 </Row>
 
                 <Row className="my-5">
                     <Col>
-                        <p>
-                            Hi, I'm Kyle, a web developer with a passion for
-                            building clean, functional, and engaging websites. I
-                            originally studied games development at university,
-                            which sparked my interest in coding and eventually
-                            led me to web development. I work with React,
-                            Django, and Bootstrap, creating dynamic front-end
-                            experiences and solid back-end systems. After years
-                            in the motor trade, I'm making the leap into web
-                            development, bringing strong problem-solving skills,
-                            attention to detail, and a love for coding.
+                        <p className="text-center">
+                            Hi, I'm Kyle, a web developer who loves building
+                            clean, functional websites. I first got into coding
+                            through a games development degree, which led me to
+                            web development and now I'm focused on growing my
+                            skills and building great projects.
                         </p>
                     </Col>
                 </Row>
@@ -77,32 +90,71 @@ const Landing = () => {
                         />
                     </Col>
                 </Row>
+                <Row className="my-5">
+                    <Col>
+                        <p className="text-center">
+                            I enjoy making things that look good and work well
+                            and I'm always looking for ways to improve and take
+                            on new challenges. I work with React, Django, and
+                            Bootstrap to build interactive, responsive websites.
+                            That said I still enjoy learning and exploring new
+                            technologies to expand my skills.
+                        </p>
+                    </Col>
+                </Row>
                 <Row className="my-5 g-4">
-                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                    <Col
+                        xs={6}
+                        lg={4}
+                        className="d-flex justify-content-center">
                         <TechCard tech="Git & Github" />
                     </Col>
-                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                    <Col
+                        xs={6}
+                        lg={4}
+                        className="d-flex justify-content-center">
                         <TechCard tech="VS Code" />
                     </Col>
-                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                    <Col
+                        xs={6}
+                        lg={4}
+                        className="d-flex justify-content-center">
                         <TechCard tech="Django" />
                     </Col>
-                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                    <Col
+                        xs={6}
+                        lg={4}
+                        className="d-flex justify-content-center">
                         <TechCard tech="React" />
                     </Col>
-                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                    <Col
+                        xs={6}
+                        lg={4}
+                        className="d-flex justify-content-center">
                         <TechCard tech="Bootstrap" />
                     </Col>
-                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                    <Col
+                        xs={6}
+                        lg={4}
+                        className="d-flex justify-content-center">
                         <TechCard tech="Python" />
                     </Col>
-                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                    <Col
+                        xs={6}
+                        lg={4}
+                        className="d-flex justify-content-center">
                         <TechCard tech="JavaScript" />
                     </Col>
-                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                    <Col
+                        xs={6}
+                        lg={4}
+                        className="d-flex justify-content-center">
                         <TechCard tech="HTML" />
                     </Col>
-                    <Col xs={6} lg={4} className="d-flex justify-content-center">
+                    <Col
+                        xs={6}
+                        lg={4}
+                        className="d-flex justify-content-center">
                         <TechCard tech="CSS" />
                     </Col>
                 </Row>
