@@ -12,7 +12,12 @@ import beeteach from "../assets/beeteach.gif";
 import vinventory from "../assets/vinventory.png";
 import quizcrunch from "../assets/quizcrunch.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Landing = () => {
+    AOS.init();
+
     return (
         <Row className="d-flex justify-content-center">
             <Col md={10} lg={8}>
@@ -30,16 +35,14 @@ const Landing = () => {
                                 href="https://www.linkedin.com/in/kyle-mardell-7b4648288/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className={`${styles.SocialLink} px-3`}
-                                >
+                                className={`${styles.SocialLink} px-3`}>
                                 <i class="fa-brands fa-linkedin"></i>
                             </a>{" "}
                             <a
                                 href="https://github.com/KyleMardell"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className={`${styles.SocialLink} px-3`}
-                                >
+                                className={`${styles.SocialLink} px-3`}>
                                 <i class="fa-brands fa-square-github"></i>
                             </a>
                         </div>
@@ -55,7 +58,7 @@ const Landing = () => {
 
                 <Row className="my-5">
                     <Col>
-                        <p className="text-center">
+                        <p data-aos="fade-up" data-aos-duration="1500" className="text-center">
                             Hi, I'm Kyle, a web developer who loves building
                             clean, functional websites. I first got into coding
                             through a games development degree, which led me to
@@ -91,7 +94,7 @@ const Landing = () => {
                     </Col>
                 </Row>
                 <Row className="my-5">
-                    <Col>
+                    <Col data-aos="fade-up" data-aos-duration="1500">
                         <p className="text-center">
                             I enjoy making things that look good and work well
                             and I'm always looking for ways to improve and take
@@ -107,55 +110,55 @@ const Landing = () => {
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="Git & Github" />
+                        <TechCard tech="Git & Github" anim={"flip-left"} />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="VS Code" />
+                        <TechCard tech="VS Code" anim={"flip-right"} />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="Django" />
+                        <TechCard tech="Django" anim={"flip-left"} />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="React" />
+                        <TechCard tech="React" anim={"flip-right"} />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="Bootstrap" />
+                        <TechCard tech="Bootstrap" anim={"flip-left"} />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="Python" />
+                        <TechCard tech="Python" anim={"flip-right"} />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="JavaScript" />
+                        <TechCard tech="JavaScript" anim={"flip-left"} />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="HTML" />
+                        <TechCard tech="HTML" anim={"flip-right"} />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="CSS" />
+                        <TechCard tech="CSS" anim={"flip-left"} />
                     </Col>
                 </Row>
             </Col>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;500;600;700;800;900&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Zen+Dots&display=swap');
 
 .App h1,
 .App h2,
@@ -7,8 +7,9 @@
 }
 
 .App p {
-    font-family: "Sarpanch", sans-serif;
+    font-family: "Aldrich", sans-serif;
     letter-spacing: 1px;
+    font-size: 1.1rem;
 }
 
 .App {
