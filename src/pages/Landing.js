@@ -16,7 +16,7 @@ const Landing = () => {
     return (
         <Row className="d-flex justify-content-center">
             <Col md={10} lg={8}>
-                <Row className="my-5">
+                <Row className="my-4">
                     <Col xs={4}>
                         <ProfileImage />
                     </Col>
@@ -45,7 +45,7 @@ const Landing = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row className="my-5 d-flex justify-content-center">
+                <Row className="my-4 d-flex justify-content-center">
                     <Col style={{ maxWidth: "fit-content" }}>
                         <p className={`${styles.AnimText}`}>
                             I build things for the web
@@ -53,9 +53,9 @@ const Landing = () => {
                     </Col>
                 </Row>
 
-                <Row className="my-5">
+                <Row className="my-4">
                     <Col>
-                        <p className="text-center">
+                        <p className="text-center m-0">
                             Hi, I'm Kyle, a web developer who loves building
                             clean, functional websites. I first got into coding
                             through a games development degree, which led me to
@@ -64,7 +64,7 @@ const Landing = () => {
                         </p>
                     </Col>
                 </Row>
-                <Row className="my-5 g-4">
+                <Row className="my-4 g-4">
                     <Col xs={6}>
                         <ProjectCard
                             src={freeflow}
@@ -90,9 +90,9 @@ const Landing = () => {
                         />
                     </Col>
                 </Row>
-                <Row className="my-5">
+                <Row className="mt-5">
                     <Col>
-                        <p className="text-center">
+                        <p className="text-center m-0">
                             I enjoy making things that look good and work well
                             and I'm always looking for ways to improve and take
                             on new challenges. I work with React, Django, and
@@ -102,60 +102,60 @@ const Landing = () => {
                         </p>
                     </Col>
                 </Row>
-                <Row className="my-5 g-4">
+                <Row className="my-4 g-4">
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="Git & Github" />
+                        <TechCard tech="Git & Github" anim="right" />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="VS Code" />
+                        <TechCard tech="VS Code" anim="left" />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="Django" />
+                        <TechCard tech="Django" anim="right" />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="React" />
+                        <TechCard tech="React" anim="left" />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="Bootstrap" />
+                        <TechCard tech="Bootstrap" anim="right" />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="Python" />
+                        <TechCard tech="Python" anim="left" />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="JavaScript" />
+                        <TechCard tech="JavaScript" anim="right" />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="HTML" />
+                        <TechCard tech="HTML" anim="left" />
                     </Col>
                     <Col
                         xs={6}
                         lg={4}
                         className="d-flex justify-content-center">
-                        <TechCard tech="CSS" />
+                        <TechCard tech="CSS" anim="right" />
                     </Col>
                 </Row>
             </Col>

@@ -5,8 +5,11 @@ import styles from "./App.module.css";
 import Landing from './pages/Landing';
 import CV from './pages/CV';
 import Projects from './pages/Projects';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  AOS.init();
   
   return (
     <div className={`${styles.App} px-1`}>
