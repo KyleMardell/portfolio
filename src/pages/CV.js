@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import styles from "../styles/CV.module.css";
 
 const CV = () => {
     return (
@@ -10,7 +11,7 @@ const CV = () => {
                         <h1>Curriculum Vitae</h1>
                     </Col>
                 </Row>
-                <Row className="mb-4">
+                <Row className="mb-5">
                     <Col className="text-center">
                         <a
                             href="https://docs.google.com/document/d/17uJhLz-DtSs8fvVJofUdbCmJobCH03VodBppBGQtNxY/export?format=pdf"
@@ -28,7 +29,7 @@ const CV = () => {
                             src="https://docs.google.com/document/d/17uJhLz-DtSs8fvVJofUdbCmJobCH03VodBppBGQtNxY/preview"
                             width="100%"
                             height="90%"
-                            style={{ border: "none" }}></iframe>
+                            className={styles.CvFrame}></iframe>
                     </Col>
                 </Row>
                 

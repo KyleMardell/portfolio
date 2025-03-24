@@ -1,19 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import ProjectDetail from "../components/ProjectDetail";
 
-const Projects = () => {
+const ProjectDetail = () => {
     return (
         <Row className="d-flex justify-content-center vh-100">
             <Col md={10} lg={8} className="d-flex flex-column">
                 <Row className="my-4">
                     <Col className="text-center">
-                        <h1>Projects</h1>
-                    </Col>
-                </Row>
-                <Row className="my-4">
-                    <Col className="text-center">
-                        <ProjectDetail />
+                        <p>Image goes here</p>
+                        <h2>Project name</h2>
+                        <p>Text goes here</p>
+                        <p>links go here</p>
                     </Col>
                 </Row>
             </Col>
@@ -21,4 +18,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default ProjectDetail;

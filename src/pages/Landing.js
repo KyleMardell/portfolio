@@ -58,7 +58,7 @@ const Landing = () => {
                         <p className="text-center m-0">
                             Hi, I'm Kyle, a web developer who loves building
                             clean, functional websites. I first got into coding
-                            through a games development degree, which led me to
+                            through a games development degree, which eventually led me to
                             web development and now I'm focused on growing my
                             skills and building great projects.
                         </p>
