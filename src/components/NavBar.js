@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import useClickOutsideToggle from "../hooks/useClickOutsideToggle";
 import styles from "../styles/NavBar.module.css";
@@ -24,9 +25,9 @@ const NavBar = () => {
                 />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#cv">Projects</Nav.Link>
-                        <Nav.Link href="#cv">Curriculum Vitae</Nav.Link>
+                        <Nav.Link as={Link} to="/">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
+                        <Nav.Link as={Link} to="/cv">Curriculum Vitae</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
