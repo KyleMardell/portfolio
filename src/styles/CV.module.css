@@ -1,4 +1,6 @@
 .CvFrame {
     border: none;
     border-radius: 10px;
+    width: 100%;
+    height: 85%;
 }

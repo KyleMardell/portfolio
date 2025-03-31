@@ -23,16 +23,13 @@ const CV = () => {
                     </Col>
                 </Row>
                 <Row className="flex-grow-1">
-                    <Col>
+                    <Col className="p-0">
                         <iframe
                             title="My CV"
-                            src="https://docs.google.com/document/d/17uJhLz-DtSs8fvVJofUdbCmJobCH03VodBppBGQtNxY/preview"
-                            width="100%"
-                            height="90%"
+                            src="https://docs.google.com/gview?embedded=true&url=https://docs.google.com/document/d/17uJhLz-DtSs8fvVJofUdbCmJobCH03VodBppBGQtNxY/export?format=pdf"
                             className={styles.CvFrame}></iframe>
                     </Col>
                 </Row>
-                
             </Col>
         </Row>
     );
