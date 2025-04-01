@@ -9,6 +9,7 @@
 .App p {
     font-family: "Sarpanch", sans-serif;
     letter-spacing: 1px;
+    font-size: 1.1rem;
 }
 
 .App {
@@ -27,6 +28,6 @@
 
 @media (min-width: 992px) {
     .App p {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 }
